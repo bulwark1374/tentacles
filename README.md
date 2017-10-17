@@ -3,7 +3,7 @@
 
 Composer
 ```
-"greabock/tentacles": "dev-master"
+"bulwark1374/tentacles": "dev-master"
 ```
 
 user-model...    
@@ -11,7 +11,7 @@ user-model...
 <? namespace App\User\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Greabock\Tentacles\EloquentTentacle;
+use Bulwark\Tentacles\EloquentTentacle;
 
 User extends Model {
   

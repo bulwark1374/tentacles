@@ -1,4 +1,4 @@
-<?php namespace Greabock\Tentacles;
+<?php namespace Bulwark\Tentacles;
 
 use Illuminate\Support\Str;
 
@@ -16,7 +16,7 @@ trait EloquentTentacle
      */
     public function hasGetMutator($key)
     {
-        if (isset(static::$externalMethods['get' . Str::studly($key) . 'Attribute'])) {
+        if (isset(stati c::$externalMethods['get' . Str::studly($key) . 'Attribute'])) {
             return true;
         }
 
@@ -33,7 +33,7 @@ trait EloquentTentacle
      */
     public function hasSetMutator($key)
     {
-        if (isset(static::$externalMethods['set' . Str::studly($key) . 'Attribute'])) {
+        if (isset(static::$exter nalMethods['set' . Str::studly($key) . 'Attribute'])) {
 
             return true;
         }
@@ -51,7 +51,7 @@ trait EloquentTentacle
      */
     public function getRelationValue($key)
     {
-        if ($this->relationLoaded($key)) {
+        if ($this->relationLoaded ($key)) {
             return $this->relations[$key];
         }
 

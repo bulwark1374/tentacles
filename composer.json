@@ -1,17 +1,17 @@
 {
-	"name": "greabock/tentacles",
-	"description": "Da epic tentacles for Eloquent",
+	"name": "bulwark/tentacles",
+	"description": "a tentacles for Eloquent",
 	"keywords": [
 		"laravel",
 		"eloquent",
 		"trait",
 		"model"
 	],
-	"license": "MIT",
+	"license": "GNU",
 	"authors": [
 		{
-			"name": "Greabock",
-			"email": "greabock@gmail.com"
+			"name": "Asghar dadasgzadeh",
+			"email": "bulwark1374@gmail.com"
 		}
 	],
 	"require": {
@@ -22,7 +22,7 @@
 
 	"autoload": {
 		"psr-4": {
-			"Greabock\\Tentacles\\": "src/"
+			"Bulwark\\Tentacles\\": "src/"
 		}
 	},
 
