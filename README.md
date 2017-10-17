@@ -1,9 +1,9 @@
 # tentacles
 *Monkey-patching for eloquent models*
 
-Composer
+Composer install 
 ```
-"bulwark1374/tentacles": "dev-master"
+composer require bulwark1374/tentacles:dev-master
 ```
 
 user-model...    
